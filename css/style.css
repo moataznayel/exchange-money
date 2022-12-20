@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   
+    background-color: #5d9d9e;
+    font-family: 'Nerko One', cursive;
+}
+
+.form-select{
+    width: 20px !important;
+}
+.input-group{
+    width: 40%;
+}
+
+.card{
+    color: black;
+    background: #f2f2f2;
+}
+.btn{
+    background-color: #5d9d9e;
+    color: white;
+}
