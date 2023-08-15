@@ -6,33 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>currency conveter</title>
 </head>
 
 <body>
-    <div class="container-fluid d-flex justify-content-center align-items-center" style="height: 100vh;">
-        <div class="card p-3" style="width: 22rem;">
+    <div class="container-fluid d-flex justify-content-center align-items-center  wrap-container " style="height: 100vh;">
+        <div class="card p-3" >
             <h3 class="text-center mb-4 mt-2 fw-bolder">Currency-Converter </h3>
-            <label class="text-center">Enter Amount</label>
-            <input type="text" class="form-control w-75 m-auto mb-3">
-            <div class="row justify-content-evenly">
-                  <label class="col-6 input-group">From :</label>
-                  <label class="col-6 input-group">To :</label>
-                <div class="input-group  col-6">
-                    <select class="form-select ms-1 form"   aria-label="Default select example">
+            <label class="text-center mb-2">Enter Amount</label>
+            <input type="text" class="form-control w-50 m-auto mb-3">
+            <div class="row justify-content-between">
+                  <label class="col-5 input-group">From :</label>
+                  <label class="col-5 input-group">To :</label>
+                <div class="input-group  col-5">
+                    <select class="form-select ms-1 select-from"    aria-label="Default select example">
+                       
                     </select>
                 </div>
-                <div class="input-group col-6 ">
-                    <select class="form-select ms-1 select"aria-label="Default select example">
+                <div  class="col-2 d-flex justify-content-center" >
+                    
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+                <div class="input-group col-5 ">
+                    <select class="form-select ms-1 select-to"aria-label="Default select example">
                     </select>
                 </div>
             </div>
             <p class="change text-center mt-5 fs-4"></p>
-            <button class="btn w-50 m-auto mt-3">Exchange</button>
+            <button class="btn w-50 m-auto mb-3">Submit</button>
+           
+         
         </div>
+        
     </div>
     </div>
 </div>
